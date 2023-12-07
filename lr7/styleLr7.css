@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+input {
+    padding: 8px;
+    margin-right: 8px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.image-div {
+    position: relative;
+    width: 100%; /* для IE 6 */
+}
+
+.image-div h2 {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+}
+
+.image-div h2 p {
+    font-size: 20px;
+    line-height: 35px;
+    padding: 10px;
+    transition: opacity 3s; 
+    text-align: center;
+}
+
+#answer.fade {
+    opacity: 0;
+    transition: opacity 0s;
+}

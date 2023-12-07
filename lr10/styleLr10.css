@@ -1,0 +1,74 @@
+#generateBtn {
+    cursor: pointer;
+}
+.container {
+    margin-top: 50px;
+}
+
+.col-central  {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-central button {
+    background-color: rgb(120, 255, 131);
+    border: none;
+    border-radius: 5px;
+    font-size: 36px;
+    padding: 15px;
+}
+
+.title {
+    font-size: 30px;
+}
+
+#try {
+    margin: 10px;
+}
+
+.baraban {
+    margin-top: 20px;
+    display:flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 100px; */
+    background-color: rgb(90, 86, 86);
+}
+
+.baraban .vertical-average {
+    background-color: rgb(58, 56, 56);
+    width: 5px;
+}
+
+.baraban .vertical-wide {
+    background-color: rgb(58, 56, 56);
+    width: 10px;
+}
+
+.baraban .vertical-narrow {
+    background-color: black;
+    width: 2px;
+}
+
+.baraban .horizontal-narrow {
+    background-color: rgb(90, 86, 86);
+    height: 5px;
+}
+
+.baraban .horizontal-wide {
+    background-color: rgb(90, 86, 86);
+    height: 20px;
+}
+
+.img {
+    min-height: 50px;
+    min-width: 50px;
+}
+
+.img img {
+    height: 100px;
+    width: 100px;
+    border: 3px solid rgb(115, 11, 11);
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гра "21"</title>
+    <!-- Підключення Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styleLr9.css">
+    <link rel="stylesheet" href="../back.css">
+</head>
+    <div class="back"><a href="../">На головну</a></div>
+    <div class="container">
+        <div class="columns-3">
+            <div class="col-user">
+                <div class="title" id="nameOfUser">User</div>
+                <div class="score" id="scoreUser">0</div>
+                <div class="image" id="outputUser"></div>
+            </div>
+            <div class="col-central">
+                <div id="try">Спроба 0 з 3</div>
+                <button id="generateBtn" onclick="playRound()">Generate</button>
+            </div>
+            <div class="col-computer">
+                <div class="title">Computer</div>
+                <div class="score" id="scoreComputer">0</div>
+                <div class="image" id="outputComputer"></div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Підключення Bootstrap JS та Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="scriptLr9.js"></script>
+</body>
+</html>

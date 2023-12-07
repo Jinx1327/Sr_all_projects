@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гра "В кого більше число"</title>
+    <!-- Підключення Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styleLr10.css">
+    <link rel="stylesheet" href="../back.css">
+</head>
+    
+    <div class="container">
+        <div class="back"><a href="../">На головну</a></div>
+        <div class="row">
+            <div class="col">
+                <div class="col-central">
+                    <div class="title" id="nameOfUser">User</div>
+                    <div id="try">Спроба 0 з 3</div>
+                    <button id="generateBtn" onclick="playRound()">Generate</button>
+                    <div id="results"></div>    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <div class="d-flex justify-content-center flex-nowrap">
+                    <div class="baraban">
+                        <div class="vertical-average"></div>
+                        <div class="col-central">
+                            <div class="horizontal-narrow"></div>
+                            <div class="img" id="img-1"><img src="img/1.png"></div>
+                            <div class="horizontal-wide"></div>
+                            <div class="img" id="img-2"><img src="img/2.png"></div>
+                            <div class="horizontal-wide"></div>
+                            <div class="img" id="img-3"><img src="img/3.png"></div>
+                            <div class="horizontal-narrow"></div>
+                        </div>
+                        <div class="vertical-wide"></div>
+                        <div class="vertical-narrow"></div>
+                        <div class="vertical-wide"></div>
+                        <div class="col-computer">
+                            <div class="horizontal-narrow"></div>
+                            <div class="img" id="img-4"><img src="img/4.png"></div>
+                            <div class="horizontal-wide"></div>
+                            <div class="img" id="img-5"><img src="img/5.png"></div>
+                            <div class="horizontal-wide"></div>
+                            <div class="img" id="img-6"><img src="img/1.png"></div>
+                            <div class="horizontal-narrow"></div>
+                        </div>
+                        <div class="vertical-wide"></div>
+                        <div class="vertical-narrow"></div>
+                        <div class="vertical-wide"></div>
+                        <div class="col-computer">
+                            <div class="horizontal-narrow"></div>
+                            <div class="img" id="img-7"><img src="img/5.png"></div>
+                            <div class="horizontal-wide"></div>
+                            <div class="img" id="img-8"><img src="img/2.png"></div>
+                            <div class="horizontal-wide"></div>
+                            <div class="img" id="img-9"><img src="img/1.png"></div>
+                            <div class="horizontal-narrow"></div>
+                        </div>
+                        <div class="vertical-average"></div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Підключення Bootstrap JS та Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="scriptLr10.js"></script>
+</body>
+</html>

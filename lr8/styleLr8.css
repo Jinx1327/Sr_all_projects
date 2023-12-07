@@ -1,0 +1,57 @@
+#outputUser, #outputComputer, #scoreUser, #scoreComputer {
+    font-size: 24px;
+}
+#generateBtn {
+    cursor: pointer;
+}
+.container {
+    margin-top: 50px;
+}
+.columns-3 {
+    width: 100%;
+    display:flex;
+    text-align: center;
+}
+
+.col-user, .col-computer, .col-central  {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-central {
+    width: 40%;
+    justify-content: center;
+}
+
+.col-user, .col-computer {
+    width: 30%;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.score {
+    background-color: rgb(134, 198, 255);
+    width: 100px;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.value {
+    background-color: rgb(240, 255, 126);
+    margin: 20px 0px;
+    border-radius: 100%;
+    font-size: 36px;
+    padding: 20px 30px ;
+}
+
+.col-central button {
+    background-color: rgb(120, 255, 131);
+    border: none;
+    border-radius: 5px;
+    font-size: 36px;
+    padding: 15px;
+}

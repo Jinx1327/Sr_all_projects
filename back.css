@@ -1,0 +1,17 @@
+div.back {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    width:100px;
+    display: block;
+    z-index:99999999;    
+    border: solid 2px blue;
+    border-radius: 5px;  
+    text-align: center;  
+    padding: 5px;
+    
+}
+div.back a {
+    color: blue;
+    text-decoration: none;
+}
